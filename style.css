@@ -1,12 +1,15 @@
-body {
-    display: inline-block;
+/* body {
+
     box-sizing: border-box;
-}
+} */
 
 
-body a {
+a {
+    display: inline-block;
+    width: 260px;
+    box-sizing: border-box;
     text-decoration: none;
-    background-color: black;
+    background-color: #000;
     color: orange;
     font-size: 24px;
     font-family: arial;
@@ -14,11 +17,13 @@ body a {
     padding: 20px 0;
     text-align: center;
     border: 3px orange solid;
-    margin: 20px 15px 20px 15px;
+    margin: 20px 15px;
+    letter-spacing: 2px;
+    transition: 0.3s;
 }
 
 a:hover {
     background-color: #333;
     color: white;
-    border: black;
+    border: 3px black solid;
 }
